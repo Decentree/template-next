@@ -13,8 +13,12 @@ const Row = styled.div`
 const Socials: React.FC = () => {
   return (
     <Row>
-      <Icon name="github" color="#f3f3f3" size="32" />
-      <Icon name="linkedin" color="#f3f3f3" size="32" />
+      <a href="https://github.com/Decentree" target="_blank">
+        <Icon name="github" color="#f3f3f3" size="32" />
+      </a>
+      <a href="https://www.linkedin.com/company/decentree" target="_blank">
+        <Icon name="linkedin" color="#f3f3f3" size="32" />
+      </a>
     </Row>
   );
 };
