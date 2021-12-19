@@ -3,7 +3,7 @@ import { AppProps } from "next/app";
 
 import Head from "next/head";
 
-import "../../shared/globals.css";
+import GlobalStyle from "../../shared/Global";
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
@@ -26,6 +26,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta property="twitter:title" content="PROJECT_NAME" />
         <meta property="twitter:description" content="PROJECT_NAME" />
       </Head>
+      <GlobalStyle />
       <Component {...pageProps} />
     </>
   );
