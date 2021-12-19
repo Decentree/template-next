@@ -1,0 +1,16 @@
+{
+  "name": "PROJECT_NAME",
+  "short_name": "PROJECT_NAME",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#6AB891",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/static/favicon.ico",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ]
+}

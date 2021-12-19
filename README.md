@@ -1,34 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PROJECT_NAME
 
-## Getting Started
+## Get Started
 
-First, run the development server:
+1. To create a project based on this template click on the `Use this template` button
+2. Find and Replace `PROJECT_NAME` placeholder with the real project name
+3. Delete libraries which do not satisfy project needs
+4. Delete this section from `README`
+5. To cover your tracks and incorporate the changes to the project's `Initial commit`, run these commands:
 
-```bash
-npm run dev
-# or
-yarn dev
+```sh
+git commit -a --amend
+git push -f origin master
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Documentation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Project is based on `Next.js`, a production-ready React Framework. Check out the [documentation](https://nextjs.org/docs) for more information.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Prerequisites
 
-## Learn More
+- `node`
+- `npm`
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Firstly, install all necessary dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```sh
+npm install
+```
 
-## Deploy on Vercel
+**To start a development server:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```sh
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**To build the app for production:**
+
+```sh
+npm run build
+npm start
+```
+
+## Folder structure
+
+```
+template-next/
+├── config (theme)
+├── public
+├── shared (shared files - css, validation, etc.)
+└── src
+    ├── components (inspired by atomic design principles)
+    │   ├── elements (small building blocks)
+    │   ├── layouts (wrappers for templates)
+    │   ├── modules (more building blocks together)
+    │   └── templates (page specific content)
+    ├── graphql (each module and its queries and mutations)
+    ├── i18n (translations)
+    ├── pages
+    ├── services (graphql client and other services)
+    ├── stores (state management)
+    └── types (more complex interfaces)
+```
+
+## What's Inside
+
+- React Framework
+
+  - [Next.js](https://nextjs.org)
+
+- Type-checking
+
+  - [TypeScript](https://www.typescriptlang.org/docs/home.html)
+
+- Code quality tools
+
+  - [Prettier](https://prettier.io/)
+  - [ESLint](https://eslint.org/)
+
+- Other
+  - [Sentry](https://sentry.io/welcome/)
