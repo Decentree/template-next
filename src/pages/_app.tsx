@@ -16,7 +16,8 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
-          rel="stylesheet"></link>
+          rel="stylesheet"
+        ></link>
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://localhost:3000/" />
         <meta property="og:title" content="PROJECT_NAME" />
