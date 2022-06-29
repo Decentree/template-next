@@ -24,7 +24,7 @@ const Paragraph = styled.p`
   margin-bottom: 50px;
 `;
 
-const Card: React.FC = () => {
+const Card = () => {
   const { t } = useTranslation<string>();
 
   return (

@@ -7,7 +7,7 @@ import Card from "../modules/Card";
 import "../../i18n";
 import { useTranslation } from "react-i18next";
 
-const Home: React.FC = () => {
+const Home = () => {
   const { t } = useTranslation<string>();
 
   return (

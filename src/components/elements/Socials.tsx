@@ -10,7 +10,7 @@ const Row = styled.div`
   width: 150px;
 `;
 
-const Socials: React.FC = () => {
+const Socials = () => {
   return (
     <Row>
       <a href="https://github.com/Decentree" target="_blank">

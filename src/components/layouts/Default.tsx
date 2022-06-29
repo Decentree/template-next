@@ -14,7 +14,11 @@ const Layout = styled.div`
   width: 100%;
 `;
 
-const Default: React.FC<DefaultProps> = ({ children }) => {
+const Default = (
+  {
+    children
+  }: DefaultProps
+) => {
   return <Layout>{children}</Layout>;
 };
 
